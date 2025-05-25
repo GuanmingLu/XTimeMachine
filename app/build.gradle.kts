@@ -41,6 +41,13 @@ android {
     }
 }
 
+repositories {
+    maven {
+        setUrl("https://api.xposed.info/")
+    }
+    mavenCentral()
+}
+
 dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
